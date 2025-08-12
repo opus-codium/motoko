@@ -32,7 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'skittlize', '~> 1.2'
   spec.add_dependency 'terminal-table'
 
-  spec.metadata = {
-    'rubygems_mfa_required' => 'true',
-  }
+  spec.metadata['rubygems_mfa_required'] = 'true'
 end
